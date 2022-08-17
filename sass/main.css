@@ -69,6 +69,7 @@ img {
 .section .section-box .section-box-left {
   width: 100%;
   max-width: 540px;
+  overflow: hidden;
   border-radius: 8px;
   padding-bottom: 10px;
   background-color: #fff;
@@ -161,6 +162,7 @@ img {
   position: relative;
   width: 100%;
   max-width: 270px;
+  overflow: hidden;
   margin-bottom: 20px;
   border-radius: 8px;
   padding-bottom: 10px;
@@ -337,6 +339,7 @@ img {
   }
   .section .section-box .img {
     transition: all 0.3s linear;
+    overflow: hidden;
   }
   .section .section-box .img:hover {
     transform: scale(1.03);
@@ -354,7 +357,6 @@ img {
   .section .section-box .section-img-left {
     position: absolute;
     display: block;
-    top: 5%;
     left: 40%;
     width: 100%;
     max-width: 60px;
@@ -422,12 +424,14 @@ img {
     position: relative;
     width: 100%;
     max-width: 500px;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
   }
   .section .section-box .section-box-right .section-box-right-li .section-box-right-li-img {
     width: 100%;
     opacity: 0.8;
+    overflow: hidden;
     filter: brightness(0.7);
     border-radius: 8px;
     transition: all 0.5s linear;
